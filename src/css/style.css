@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    /* min-height: 90vh; */
+    /* margin: 0; */
+    height: 100%;
+    /* max-width: 1440px; */
+    background-image: url("../images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    margin: 20px 0;
+}
+
+main {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info h2 {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.info p {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.info button {
+    padding: 15px 60px;
+    margin: 0 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.info button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.info, .info h2, .info p {
+    margin: 10px;
+    color: white;
+}
+
+.social {
+    align-self: end;
+    display: flex;
+    align-items: center;
+}
+
+.social a {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid;
+    transition: 0.3s;
+}
+
+.social i {
+    font-size: 20px;
+}
+
+
+.social a:hover {
+    color: hsl(300, 69%, 71%);
+}
