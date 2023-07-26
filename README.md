@@ -13,8 +13,6 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -53,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-I have some other projects using JS and importing icons, in this particular project I have downloaded and incorporeted these icons in CSS. Also my initial works are from a Mobile background, hovering styles are not something I'm used to work. In this case I needed a shadow and hover effect, the codes below provide an ideia of that:
+I have experience with other projects involving JS and importing icons. In this current project, I have downloaded and incorporated these icons into the CSS. Additionally, my previous work has mainly been focused on Mobile applications, so I am not as familiar with creating hovering styles. However, in this case, I needed to implement a shadow and hover effect. The code snippets below outline the implementation for achieving this effect.
 
 ```html
 <a href="">
